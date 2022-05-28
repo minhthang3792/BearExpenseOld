@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "441029342658",
+    "firebase_url": "https://bearbarber-3080a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "bearbarber-3080a",
+    "storage_bucket": "bearbarber-3080a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441029342658:android:52763f50188b52ada7125b",
+        "android_client_info": {
+          "package_name": "com.bear.bearbarber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441029342658-i0m8321gonkamu0u9ntnfsd77mfkoq80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0BVAn52ccvicVqo0A5K6FifMGXwWg0Kw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441029342658-i0m8321gonkamu0u9ntnfsd77mfkoq80.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "441029342658-rdtoj6i94kscoi669cvbj8bfirlas890.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bear.bearbarber"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

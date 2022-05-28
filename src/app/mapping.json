@@ -1,0 +1,18 @@
+{
+  "components": {
+    "Layout": {
+      "appearances": {
+        "filled": {
+          "mapping": {},
+          "variantGroups": {
+            "status": {
+              "primary": {
+                "backgroundColor": "background-basic-color-1"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
