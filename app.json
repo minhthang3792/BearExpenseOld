@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "BearBarber",
-    "slug": "BearBarber",
+    "name": "BearExpense",
+    "slug": "BearExpense",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,10 +22,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.xpeter45.BearExpense"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "67e9bc04-a182-4a5b-9405-7e107a84588a"
+      }
     }
   }
 }

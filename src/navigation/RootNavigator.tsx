@@ -6,9 +6,7 @@ import {
 import BottomNavigator from "./BottomNavigator";
 import React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import ChatScreen from "../screens/chat/ChatScreen";
 import { Icon, Text, useTheme } from "@ui-kitten/components";
-import CreateRoomChatModal from "../screens/chat/CreateRoomChatModal";
 import { TouchableOpacity } from "react-native";
 import KittenIcon from "../components/typography/KittenIcon";
 
@@ -50,29 +48,6 @@ export default function RootNavigator(props: any) {
           component={BottomNavigator}
           options={{ headerShown: false }}
         />
-        <Stack.Screen
-          name="ChatScreen"
-          component={ChatScreen}
-          options={({ navigation }) => ({
-            headerRight: () => (
-              <TouchableOpacity onPress={() => onCreateRoomChat(navigation)}>
-                <KittenIcon name={"plus-outline"} />
-              </TouchableOpacity>
-            ),
-            title: "Chat",
-          })}
-        />
-        <Stack.Group>
-          <Stack.Screen
-            name="CreateRoomChatModal"
-            component={CreateRoomChatModal}
-            options={({ navigation }) => ({
-              headerTitleAlign: "center",
-              title: "New message",
-              presentation: "modal",
-            })}
-          />
-        </Stack.Group>
       </Stack.Navigator>
     </NavigationContainer>
   );

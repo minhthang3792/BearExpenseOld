@@ -1,7 +1,7 @@
 import React from "react";
 import { ListRenderItemInfo, StyleSheet } from "react-native";
 import { List, ListItem, ListItemElement, Toggle } from "@ui-kitten/components";
-import { ListItemModel } from "../model/list-item.model";
+import { ListItemModel } from "../lib/entities/list-item.model";
 import { AppContext } from "../app/app-context";
 
 const data: any[] = [];

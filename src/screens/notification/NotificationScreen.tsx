@@ -6,7 +6,7 @@ import {
   View,
 } from "react-native";
 import { Card, Icon, List, Text } from "@ui-kitten/components";
-import { ListItemModel } from "../../model/list-item.model";
+import { ListItemModel } from "../../lib/entities/list-item.model";
 import { MasterService } from "../../service/MasterService";
 import { ApiConst } from "../../common/constant/ApiConst";
 import { styles } from "./style";

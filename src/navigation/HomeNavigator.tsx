@@ -6,7 +6,6 @@ import AddPaymentModal from "../screens/payment/AddPaymentModal";
 import TransactionScreen from "../screens/transactions/TransactionScreen";
 import { Text } from "@ui-kitten/components";
 import QRScannerScreen from "../screens/qrscanner/QRScannerScreen";
-import { LoginScreen } from "../screens/init/LoginScreen";
 
 const Stack = createNativeStackNavigator();
 
@@ -32,13 +31,6 @@ export default function HomeNavigator() {
         component={TransactionScreen}
         options={{
           title: "Transaction",
-        }}
-      />
-      <Stack.Screen
-        name="LoginScreen"
-        component={LoginScreen}
-        options={{
-          title: "Login",
         }}
       />
 

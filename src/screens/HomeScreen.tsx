@@ -17,7 +17,7 @@ export const HomeScreen = ({ navigation }) => {
               >
                 <Image
                   style={styles.buttonIcon}
-                  source={require("../resource/icons/add-document.png")}
+                  source={require("../../assets/icons/add-document.png")}
                 />
                 <Text>Add payment</Text>
               </TouchableOpacity>
@@ -29,7 +29,7 @@ export const HomeScreen = ({ navigation }) => {
               >
                 <Image
                   style={styles.buttonIcon}
-                  source={require("../resource/icons/chart.png")}
+                  source={require("../../assets/icons/chart.png")}
                 />
                 <Text>Statistic</Text>
               </TouchableOpacity>
@@ -41,7 +41,7 @@ export const HomeScreen = ({ navigation }) => {
               >
                 <Image
                   style={styles.buttonIcon}
-                  source={require("../resource/icons/payment-history.png")}
+                  source={require("../../assets/icons/payment-history.png")}
                 />
                 <Text>Transaction</Text>
               </TouchableOpacity>
@@ -55,7 +55,7 @@ export const HomeScreen = ({ navigation }) => {
               >
                 <Image
                   style={styles.buttonIcon}
-                  source={require("../resource/icons/payment-history.png")}
+                  source={require("../../assets/icons/payment-history.png")}
                 />
                 <Text>QRScannerScreen</Text>
               </TouchableOpacity>
@@ -67,7 +67,7 @@ export const HomeScreen = ({ navigation }) => {
               >
                 <Image
                   style={styles.buttonIcon}
-                  source={require("../resource/icons/payment-history.png")}
+                  source={require("../../assets/icons/payment-history.png")}
                 />
                 <Text>LoginScreen</Text>
               </TouchableOpacity>
@@ -79,7 +79,7 @@ export const HomeScreen = ({ navigation }) => {
               >
                 <Image
                   style={styles.buttonIcon}
-                  source={require("../resource/icons/payment-history.png")}
+                  source={require("../../assets/icons/payment-history.png")}
                 />
                 <Text>ChatScreen</Text>
               </TouchableOpacity>

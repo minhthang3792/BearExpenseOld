@@ -3,27 +3,36 @@ import SettingsScreen from "../screens/SettingsScreen";
 import { FontAwesome } from "@expo/vector-icons";
 import React from "react";
 import HomeNavigator from "./HomeNavigator";
+import InputScreen from "../screens/input/InputScreen";
 import NotificationScreen from "../screens/notification/NotificationScreen";
 
 const BottomTab = createBottomTabNavigator();
 export default function BottomNavigator() {
   return (
-    <BottomTab.Navigator initialRouteName={"HomeNavigator"}>
+    <BottomTab.Navigator initialRouteName={"InputScreen"}>
+      <BottomTab.Screen
+        name="InputScreen"
+        component={InputScreen}
+        options={{
+          title: "Input",
+          tabBarIcon: ({ color }) => <TabBarIcon name="edit" color={color} />,
+        }}
+      />
       <BottomTab.Screen
         name="NotificationScreen"
         component={NotificationScreen}
         options={{
-          title: "Notification",
-          tabBarIcon: ({ color }) => <TabBarIcon name="bell" color={color} />,
+          title: "Calendar",
+          tabBarIcon: ({ color }) => <TabBarIcon name="calendar" color={color} />,
         }}
       />
       <BottomTab.Screen
         name="HomeNavigator"
         component={HomeNavigator}
         options={{
-          title: "Home",
+          title: "Report",
           headerShown: false,
-          tabBarIcon: ({ color }) => <TabBarIcon name="home" color={color} />,
+          tabBarIcon: ({ color }) => <TabBarIcon name="file-text-o" color={color} />,
         }}
       />
       <BottomTab.Screen
@@ -42,5 +51,5 @@ function TabBarIcon(props: {
   name: React.ComponentProps<typeof FontAwesome>["name"];
   color: string;
 }) {
-  return <FontAwesome size={30} style={{ marginBottom: -3 }} {...props} />;
+  return <FontAwesome size={24} style={{ marginBottom: -3 }} {...props} />;
 }

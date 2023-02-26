@@ -7,7 +7,7 @@ import {
   ListItem,
   ListItemElement,
 } from "@ui-kitten/components";
-import { ListItemModel } from "../../model/list-item.model";
+import { ListItemModel } from "../../lib/entities/list-item.model";
 import { IconProps } from "@ui-kitten/components/ui/icon/icon.component";
 import { MasterService } from "../../service/MasterService";
 import { AxiosResponse } from "axios";
